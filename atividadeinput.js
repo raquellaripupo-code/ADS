@@ -102,12 +102,12 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let massas = palavra.question('Qual e sua comida favoria?:');
-let maça = palavra.question('Qual e sua fruta favoria?:');
-let cenoura = palavra.question('Qual e seu legumes favorito?:');
+// let massas = palavra.question('Qual e sua comida favoria?:');
+// let maça = palavra.question('Qual e sua fruta favoria?:');
+// let cenoura = palavra.question('Qual e seu legumes favorito?:');
 
-let comidasFavoritas = [massas, maça, cenoura];
-console.table([comidasFavoritas]);
+// let comidasFavoritas = [massas, maça, cenoura];
+// console.table([comidasFavoritas]);
 
 
 
@@ -124,6 +124,14 @@ console.log("_______________________________");
 // d) Exiba a mesma informação com console.table().
 
 // → Seu código aqui:
+
+// let nome = palavra.question('Qua e o seu nome?:');
+// let profissao = palavra.question('Qual é sua profissao?:');
+// let city = palavra.question('Qual e sua cidade:?');
+
+// const cadastroPessoal = (`Me chamo ${nome}, minha profissao e ${profissao}, e resido em ${city}`);
+// console.table([cadastroPessoal]);
+
 
 
 console.log("_______________________________");
@@ -144,6 +152,41 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+// let usuario1 = {
+//     nome: palavra.question('Qual o seu nome? '),
+//     idade: palavra.questionInt('Qual a sua idade? '),
+//     endereco: {
+//     cidade: palavra.question('Qual a sua cidade? ' ),
+//     rua: palavra.question('Qual sua rua? '),
+//     numero: palavra.questionInt('Qual o numero da sua casa? ')
+//     }
+// } 
+
+// let usuario2 = {
+//     nome: palavra.question('Qual o seu nome? '),
+//     idade: palavra.questionInt('Qual a sua idade? '),
+//         endereco: {
+//         cidade: palavra.question('Qual a sua cidade?' ),
+//         rua: palavra.question('Qual sua rua? '),
+//         numero: palavra.questionInt('Qual o numero da sua casa? ')
+//         }
+// }
+// let usuario3 = {
+//     nome: palavra.question('Qual o seu nome? '),
+//     idade: palavra.question('Qual a sua idade? '),
+//         endereco: {
+//          cidade: palavra.question('Qual a sua cidade?'  ),
+//         rua: palavra.question('Qual sua rua? '),
+//         numero: palavra.questionInt('Qual o numero da sua casa? ')
+//         }
+// }
+
+// listaDeUsuarios = [usuario1, usuario2, usuario3];
+// console.log(usuario1.nome, usuario1.idade);
+// console.log(usuario2.endereco);
+// console.log(usuario3.nome, usuario3.endereco.rua);
+
+
 
 console.log("_______________________________");
 
@@ -160,6 +203,24 @@ console.log("_______________________________");
 // g) Exiba o nome e a 3ª nota do 1º aluno.
 
 // → Seu código aqui:
+
+let alunos1 = {
+    nome = palavra.question('Qual e o seu nome?'),
+    notas = [palavra.questionInt('Nota um'), palavra.questionInt('Nota dois'), palavra.questionInt('nota tres')],
+}
+let alunos2 = {
+    nome = palavra.question('Qual e o seu nome?'),
+    notas = [palavra.questionInt('Nota um'), palavra.questionInt('Nota dois'), palavra.questionInt('nota tres')],
+}
+let alunos3 = {
+    nome = palavra.question('Qual e o seu nome?'),
+    notas = [palavra.questionInt('Nota um'), palavra.questionInt('Nota dois'), palavra.questionInt('nota tres')]
+}
+
+let turma = [alunos1, alunos2, alunos3];
+console.table(turma);
+    
+
 
 
 console.log("_______________________________");
